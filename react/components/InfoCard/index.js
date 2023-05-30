@@ -232,7 +232,7 @@ const InfoCard = ({
                     : formatIOMessage({ id: callToActionText, intl })
                 }
                 data-testid="half-image"
-                title={imageTitle}
+                {...(imageTitle && { title: imageTitle })}
               />
             </LinkWrapper>
           </div>
