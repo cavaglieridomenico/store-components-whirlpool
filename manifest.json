@@ -1,7 +1,7 @@
 {
-  "vendor": "vtex",
+  "vendor": "itwhirlpool",
   "name": "store-components",
-  "version": "3.169.3",
+  "version": "0.0.3",
   "title": "VTEX Store Components",
   "defaultLocale": "pt-BR",
   "description": "The VTEX store components for that render apps can use",
@@ -39,7 +39,7 @@
     "vtex.styleguide": "9.x"
   },
   "settingsSchema": {
-    "title": "vtex.store-components",
+    "title": "itwhirlpool.store-components",
     "type": "object",
     "properties": {
       "enableDefaultSeller": {
